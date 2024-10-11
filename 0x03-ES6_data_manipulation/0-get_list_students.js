@@ -1,4 +1,4 @@
-function getListStudents() {
+export default function getListStudents() {
   return [
     new Student(1, 'Guillaume', 'San Francisco'),
     new Student(2, 'James', 'Columbia'),
